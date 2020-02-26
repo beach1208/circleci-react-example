@@ -23,7 +23,7 @@ workflows:
     "Hello Workflow":
         jobs:
           - hello/hello-build
-version: 2
+# version: 2
 jobs:
   build:
     docker: # Executor タイプです。他に machine、macOS という実行タイプを指定できます
